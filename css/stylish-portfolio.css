@@ -11,8 +11,7 @@ html {
 }
 
 body {
-  font-family: "Source Sans Pro";
-  overflow-x: hidden;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .btn-xl {
@@ -95,15 +94,10 @@ h6 {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(
-      90deg,
-      rgba(255, 255, 255, 0.1) 0%,
-      rgba(255, 255, 255, 0.1) 100%
-    ),
-    url("../img/erp.png");
+  background-image: url(../img/logotitle.png);
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 
 .masthead h1 {
@@ -126,11 +120,10 @@ h6 {
   position: fixed;
   z-index: 2;
   right: 0;
-  width: 250px;
-  height: 100%;
+
   transition: all 0.4s ease 0s;
   transform: translateX(250px);
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.6);
   border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -284,15 +277,10 @@ h6 {
 
 .callout {
   padding: 15rem 0;
-  background: linear-gradient(
-      90deg,
-      rgba(255, 255, 255, 0.1) 0%,
-      rgba(255, 255, 255, 0.1) 100%
-    ),
-    url("../img/erp.png");
+  background-image: url(../img/logotitle.png);
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 
 .callout h2 {
